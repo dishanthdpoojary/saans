@@ -1,6 +1,6 @@
 # Saans: know the air before you breathe it
 
-> *Saans* (साँस) means "breath". Breathe Better**.
+> *Saans* (साँस) means "breath". **Breathe Better**.
 
 Saans is a real-time air quality intelligence platform. It turns data from **8 authentic public sources** into answers people can act on: *What is the air like right now? Is it safe to run this evening? Where is it cleaner? Is my city getting better or worse?*
 

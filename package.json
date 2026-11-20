@@ -1,0 +1,38 @@
+{
+  "name": "saans",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "node --import ./scripts/test-resolver.mjs --test src/**/*.test.ts",
+    "prebuild": "node scripts/tw-build.mjs"
+  },
+  "dependencies": {
+    "@react-leaflet/core": "^3.0.0",
+    "clsx": "^2.1.1",
+    "leaflet": "^1.9.4",
+    "lucide-react": "^1.70.0",
+    "next": "16.4.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-leaflet": "^5.0.0",
+    "recharts": "^3.10.1",
+    "server-only": "^0.0.1",
+    "swr": "^2.5.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/node": "^4.3.5",
+    "@tailwindcss/turbopack": "^4",
+    "@types/leaflet": "^1.9.22",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.5",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
